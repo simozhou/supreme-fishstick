@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+ background: rgb(126,211,119);
+background: linear-gradient(90deg, rgba(126,211,119,1) 0%, rgba(110,216,143,1) 20%, rgba(113,216,176,1) 40%, rgba(113,216,213,1) 60%, rgba(123,191,225,1) 80%, rgba(134,172,236,1) 100%); 
+	background-size: 300% 300%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+.invitation-block {
+  background: white;
+  text-align: center,left;
+  padding: 8vh;
+  font-size: 70pt;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 100% 0%;
+	}
+	50% {
+		background-position: 0% 100%;
+	}
+  100% {
+		background-position: 100% 0%;
+	}
+}
+
+.navbar {
+  background: white;
+  padding:2vh;
+} 
+
+.header {
+  padding: 10v;
+  height: -70vh;
+}
+
+.title {
+  font-size: 10vw;
+  font-family: Rubik,Sans Serif;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 6vw;
+  font-family: Rubik,Sans Serif;
+  font-weight: 700;
+}
+
+.info {
+  font-family: Work Sans;
+  font-weight: 300;
+  padding-top: 2.5vw;
+  font-size: 4vw
+}
+
+.pickupper {
+  font-family: Work Sans;
+  font-weight: 300;
+  padding-top: 10vh;
+  font-size: 10vw;
+}
+
+.speakers {
+  padding: 10vh;
+}
