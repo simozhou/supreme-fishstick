@@ -10,12 +10,26 @@
     <script>
         $(function() {
             $("#landing").load("/views/landing.html");
+            $("#speakers").load("/views/speakers.html");
+            $("#faq").load("/views/faq.html");
+            $("#sponsors").load("/views/sponsors.html");
         });
     </script>
 </head>
 
 <body>
+
+    <div class="navbar d-flex w-100">
+        <a class="nav-element m-3">[LOGO]</a>
+        <a class="nav-element m-3" href="#speakers">SPEAKERS</a>
+        <a class="nav-element m-3" href="#faq">FAQ</a>
+        <a class="nav-element m-3" href="#sponsors">SPONSORS</a>
+    </div>
+
     <div id="landing"></div>
+    <div id="speakers"></div>
+    <div id="faq"></div>
+    <div id="sponsors"></div>
 </body>
 <footer>
 </footer>
