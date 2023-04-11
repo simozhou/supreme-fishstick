@@ -9,11 +9,8 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Start the server: `python -m http.server`
 - Visit localhost in your browser at: `localhost:8000`
 
-## TODOs
-- [ ] Landing page (gradient, font, logo, navbar)
-- [ ] Information about tracks (can probably just be static)
-- [ ] Speakers section (speaker name, affiliation, more info on hover or click)
-- [ ] Footer with contact information
-- [ ] Programme section
-- [ ] FAQ section
-- [ ] Sponsor section
+## TODOs (among other things)
+- make logo and navbar scale
+-  ensure that navbar doesn’t overlap with title
+- fix design of “You are…” card (and make it so that it never overflows)
+- style the social media buttons, could be done with [font-awesome](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
