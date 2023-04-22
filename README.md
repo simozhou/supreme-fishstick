@@ -13,6 +13,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODOs (among other things)
 - make logo and navbar scale
--  ensure that navbar doesn’t overlap with title
-- fix design of “You are…” card (and make it so that it never overflows)
+- ensure that navbar doesn’t overlap with title
+- fix scaling of buttons
 - style the social media buttons, could be done with [font-awesome](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)

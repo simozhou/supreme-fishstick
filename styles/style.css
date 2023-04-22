@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+:root {
+  --ff-body: Work Sans;
+  --ff-heading: Rubik, Sans Serif;
+
+  --fs-xl: clamp(3rem, 8vw + 1rem, 10rem); /*min size, scaling, max size*/
+  --fs-l: clamp(3rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
+  --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
+  --fs-section-title: clamp(3rem, 4vw + 1rem, 5rem); /*min size, scaling, max size*/
+  --fs-faq: clamp(1rem, 1.5vw + 1rem, 3rem); /*min size, scaling, max size*/
+}
+
+@media (max-width: 40rem) {
+  :root {
+    /*--fs-xl: 4rem;*/
+  }
+}
+
+
 body {
   background: rgb(126,211,119);
   background: linear-gradient(90deg, rgba(126,211,119,1) 0%, rgba(110,216,143,1) 20%, rgba(113,216,176,1) 40%, rgba(113,216,213,1) 60%, rgba(123,191,225,1) 80%, rgba(134,172,236,1) 100%); 
@@ -37,6 +55,7 @@ body {
 .nav-element {
   color: black;
   text-decoration: none;
+  font-size: 2vw;
 }
 
 .section-block {
@@ -52,60 +71,60 @@ body {
 }
 
 .title {
-  font-size: 10vw;
-  font-family: Rubik,Sans Serif;
+  font-size: var(--fs-xl);
+  font-family: var(--ff-heading);
   font-weight: 700;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .subtitle {
-  font-size: 6vw;
-  font-family: Rubik,Sans Serif;
+  font-size: var(--fs-l);
+  font-family: var(--ff-heading);
   font-weight: 700;
 }
 
 .info {
-  font-family: Work Sans;
+  font-size: var(--fs-info);
+  font-family: var(--ff-body);
   font-weight: 300;
   padding-top: 2.5vw;
-  font-size: 4vw
 }
 
 .section-title {
-  font-size: 7vw;
-  font-family: Rubik,Sans Serif;
+  font-size: var(--fs-section-title);
+  font-family: var(--ff-heading);
   font-weight: 400;
   padding-bottom: 2%;
 }
 
 .speaker-name {
-  font-family: Work Sans;
+  font-family: var(--ff-body);
   font-weight: 500;
   font-size: 2vw;
   margin: 1%;
 }
 
 .speaker-affiliation {
-  font-family: Work Sans;
+  font-family: var(--ff-body);
   font-weight: 300;
   font-size: 2vw;
   margin: 0;
 }
 
 .faq-question {
-  font-family: Work Sans;
+  font-family: var(--ff-body);
   font-weight: 300;
-  font-size: 3vw;
+  font-size: var(--fs-faq);
 }
 
 .faq-answer {
-  font-family: Work Sans;
+  font-family: var(--ff-body);
   font-weight: 300;
-  font-size: 3vw
+  font-size: var(--fs-faq);
 }
 
 .pickupper {
-  font-family: Work Sans;
+  font-family: var(--ff-body);
   font-weight: 300;
   padding-top: 5vh;
   font-size: 8vw;
