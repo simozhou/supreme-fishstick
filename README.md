@@ -11,8 +11,20 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Start the server: `python -m http.server`
 - Visit localhost in your browser at: `localhost:8000`
 
-## TODOs (among other things)
-- make logo and navbar scale
--  ensure that navbar doesn’t overlap with title
-- fix design of “You are…” card (and make it so that it never overflows)
+## TODO
+- make logo and navbar scale (ensure that navbar doesn’t overlap with title). This probably requires to do the navbar from scratch
+- make padding on the landing page scale (currently done with m4, probably needs to be adjusted)
+- create a design for the programme section
+- style the tracks section (maybe different font? I find it pretty hard to read currently)
+- move the registration button, seems a bit off in the center as it is currently, especially on large screens
+- make sure that the scaling of speakers works well on phones (maybe always have a minimum of two speakers per row, idk how though)
 - style the social media buttons, could be done with [font-awesome](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+- add correct links to social media buttons
+- add pop-ups (or something similar) when users click on a speaker to get more info
+- create a hover effect for the speakers to make the page feel more interactive
+- would be cool if we could indicate which speaker belongs to which track (if we feel fancy we could for example cut out a speakers silhouette and put them in front of differently colored backgrounds, depending on the track. This would also allow for a sick hover effect where the silhouette grows and the background maybe gets blurry or something of the sort)
+- populate speakers
+- populate programme
+- populate faq
+- populate sponsors
+- make the register button redirect to the actual registration website
