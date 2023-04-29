@@ -12,10 +12,12 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- make logo and navbar scale (ensure that navbar doesn’t overlap with title). This probably requires to do the navbar from scratch
+- make padding of landing dependent on the navbar
+- ensure that if you click on a section in the navbar, there is padding so that it directs you to the correct section (including the header)
 - adjust the highlighted section in the navbar depending on where the user is
 - make padding on the landing page scale (currently done with m4, probably needs to be adjusted)
-- create a design for the programme section
+- improve the design for the programme section
+- make programme hidden by default and fix the bug where it doesn't take up 100% of the screen after being collapsed
 - style the tracks section (maybe different font? I find it pretty hard to read currently)
 - move the registration button, seems a bit off in the center as it is currently, especially on large screens
 - make sure that the scaling of speakers works well on phones (maybe always have a minimum of two speakers per row, idk how though)
