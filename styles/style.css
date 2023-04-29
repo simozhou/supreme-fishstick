@@ -11,6 +11,7 @@
   --fs-faq: clamp(1rem, 1.5vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-text: clamp(1rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-speaker: clamp(1rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
+  --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
 }
 
 body {
@@ -40,18 +41,9 @@ body {
 	}
 }
 
-.navbar {
-  background: white;
-  padding: 2vh;
-  position: fixed;
-  height: 12vh;
-  z-index: 1000;
-} 
-
-.nav-element {
-  color: black;
-  text-decoration: none;
-  font-size: 2vw;
+.nav-link {
+  font-size: var(--fs-navbar);
+  font-family: var(--ff-body);
 }
 
 .section-block {
@@ -62,8 +54,7 @@ body {
 }
 
 .header {
-  padding: 10v;
-  height: -70vh;
+  padding-top:12vh;
 }
 
 .title {

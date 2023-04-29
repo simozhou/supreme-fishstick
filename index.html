@@ -5,8 +5,9 @@
     <title>25th EMBL PhD Symposium</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/landing_you_are.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
     <script>
         $(function() {
             $("#landing").load("/views/landing.html");
@@ -21,16 +22,34 @@
 </head>
 
 <body>
-    <div class="navbar d-flex w-100">
-        <a class="nav-element m-3">
-            <img src="assets/logo.png" alt="Logo" width=50>
-        </a>
-        <a class="nav-element m-3" href="#tracks">TRACKS</a>
-        <a class="nav-element m-3" href="#speakers">SPEAKERS</a>
-        <a class="nav-element m-3" href="#programme">PROGRAMME</a>
-        <a class="nav-element m-3" href="#faq">FAQ</a>
-        <a class="nav-element m-3" href="#sponsors">SPONSORS</a>
-    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex w-100" style="height: fit-content; position: fixed; z-index: 1000;">
+      <a class="nav-element m-3">
+          <img src="assets/logo.png" alt="Logo" width=40vh>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#tracks">TRACKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#speakers">SPEAKERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#programme">PROGRAMME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">SPONSORS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div id="landing"></div>
     <div id="tracks"></div>

@@ -13,6 +13,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODO
 - make logo and navbar scale (ensure that navbar doesn’t overlap with title). This probably requires to do the navbar from scratch
+- adjust the highlighted section in the navbar depending on where the user is
 - make padding on the landing page scale (currently done with m4, probably needs to be adjusted)
 - create a design for the programme section
 - style the tracks section (maybe different font? I find it pretty hard to read currently)
