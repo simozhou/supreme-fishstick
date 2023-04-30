@@ -54,7 +54,7 @@ body {
 }
 
 .header {
-  padding-top:12vh;
+  padding-top:8vh;
 }
 
 .title {
@@ -180,4 +180,47 @@ td.right-column {
 
 .footer-container {
     background: white;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding-top: 17px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-envelope {
+  background: #55ACEE;
+  color: white;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 90px; /* fixed header height*/
+  margin: -90px 0 0; /* negative fixed header height */
 }
