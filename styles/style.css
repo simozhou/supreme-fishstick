@@ -108,6 +108,11 @@ body {
   width: clamp(7rem, 16vw + 1rem, 13rem);
 }
 
+.img-cover{
+  object-fit: cover;
+  object-position: center;
+}
+
 .speaker-name {
   font-family: var(--ff-body);
   font-weight: 500;
