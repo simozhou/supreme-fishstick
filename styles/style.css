@@ -7,10 +7,10 @@
   --fs-xl: clamp(3rem, 8vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-l: clamp(3rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
-  --fs-section-title: clamp(3rem, 4vw + 1rem, 5rem); /*min size, scaling, max size*/
-  --fs-faq: clamp(1rem, 1.5vw + 1rem, 3rem); /*min size, scaling, max size*/
-  --fs-text: clamp(1rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
-  --fs-speaker: clamp(1rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
+  --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
+  --fs-faq: clamp(1rem, 1.2vw + 1rem, 3rem); /*min size, scaling, max size*/
+  --fs-text: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
+  --fs-speaker: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
 }
 
@@ -55,13 +55,14 @@ body {
 
 .header {
   padding-top:8vh;
+  margin: 1.5rem;
 }
 
 .title {
   font-size: var(--fs-xl);
   font-family: var(--ff-heading);
   font-weight: 700;
-  padding-top: 12vh;
+  padding-top: 7vh;
   text-align: left;
 }
 
@@ -70,13 +71,14 @@ body {
   font-family: var(--ff-heading);
   font-weight: 700;
   text-align: left;
+  padding-top: 3vh;
 }
 
 .info {
   font-size: var(--fs-info);
   font-family: var(--ff-body);
   font-weight: 300;
-  padding-top: 2.5vw;
+  padding-top: 3vh;
   text-align: left;
 }
 
@@ -87,7 +89,7 @@ body {
   color: white;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 3%;
+  margin-top: 4vh;
   font-size: var(--fs-info);
   cursor: pointer;
 }
@@ -105,7 +107,7 @@ body {
 }
 
 .speaker-image {
-  width: clamp(7rem, 16vw + 1rem, 13rem);
+  width: clamp(7rem, 14vw + 1rem, 13rem);
 }
 
 .img-cover{
