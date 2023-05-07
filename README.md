@@ -12,7 +12,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- make navbar collapse when a link is clicked. This can be done by adding `"data-bs-toggle="collapse" data-bs-target="#navbarNav"` to the `a` elements, but then it also collapses when clicked in the non-collapsed state. Probably requires some js magic
 - add pop-ups (or something similar) when users click on a speaker to get more info
 - fix scaling for programme and FAQ
 - populate speakers
