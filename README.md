@@ -12,8 +12,8 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- add pop-ups (or something similar) when users click on a speaker to get more info
-- fix scaling for programme and FAQ
+- add bootstrap popover when users click on a speaker to get more info
+- fix scaling and styling for programme and FAQ
 - populate speakers
 - populate programme
 - populate faq
@@ -24,7 +24,5 @@ If you just open the html file as a file in your browser, it will not work, beca
 - style the tracks section (maybe different font? I find it pretty hard to read currently. Alternatively the text could be shorter)
 
 Cosmetic upgrades
-- check if the logo is still the correct one
-- adjust the highlighted section in the navbar depending on where the user is
 - create a hover effect for the speakers to make the page feel more interactive
-- would be cool if we could indicate which speaker belongs to which track
+- would be cool if we could indicate which speaker belongs to which track, e. g. by coloring the horizontal bar or something like that

@@ -8,7 +8,7 @@
   --fs-l: clamp(3rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
-  --fs-faq: clamp(1rem, 1.2vw + 1rem, 3rem); /*min size, scaling, max size*/
+  --fs-faq: clamp(0.8rem, 1vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-text: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-speaker: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
