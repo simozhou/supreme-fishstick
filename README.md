@@ -13,8 +13,9 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODO
 - make navbar collapse when a link is clicked. This can be done by adding `"data-bs-toggle="collapse" data-bs-target="#navbarNav"` to the `a` elements, but then it also collapses when clicked in the non-collapsed state. Probably requires some js magic
-- improve the design for the programme section
 - make programme hidden by default and fix the bug where it doesn't take up 100% of the screen after being collapsed
+- color-code the different activities in the programme
+- fix scaling of time div for programme section
 - add pop-ups (or something similar) when users click on a speaker to get more info
 - populate speakers
 - populate programme
