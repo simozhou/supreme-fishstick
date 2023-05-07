@@ -106,6 +106,13 @@ body {
   padding-bottom: 2%;
 }
 
+.speaker-line {
+  width: 50%;
+  background-color: darkgray;
+  margin: 3%;
+
+}
+
 .speaker-image {
   width: clamp(7rem, 14vw + 1rem, 13rem);
 }
@@ -126,6 +133,14 @@ body {
   font-family: var(--ff-body);
   font-weight: 300;
   font-size: var(--fs-speaker);
+  margin: 0;
+}
+
+.speaker-country {
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-speaker);
+  font-style: italic;
   margin: 0;
 }
 

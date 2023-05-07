@@ -16,7 +16,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 - improve the design for the programme section
 - make programme hidden by default and fix the bug where it doesn't take up 100% of the screen after being collapsed
 - for some speakers, the images require some work (outpainting?) to get it into a nice rectangular format (Laurent, Tung)
-- style speakers font so that affiliation and country are separated more clearly, could also be made smaller
 - add pop-ups (or something similar) when users click on a speaker to get more info
 - populate speakers
 - populate programme
