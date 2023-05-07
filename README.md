@@ -16,7 +16,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 - improve the design for the programme section
 - make programme hidden by default and fix the bug where it doesn't take up 100% of the screen after being collapsed
 - for some speakers, the images require some work (outpainting?) to get it into a nice rectangular format (Laurent, Tung)
-- style the social media buttons, the [font-awesome](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp) doesn't work super well
 - style speakers font so that affiliation and country are separated more clearly, could also be made smaller
 - add pop-ups (or something similar) when users click on a speaker to get more info
 - populate speakers
@@ -25,7 +24,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 - populate sponsors
 - make the register button redirect to the actual registration website
 - add pronouns to speakers
-- if you are on a small screen and switch between sponsors and FAQ, it currently looks weird, could be solved simply by getting some actual sponsors in there, which would make the container take up more space
+- if you are on a small screen and switch between sponsors and FAQ, it currently looks weird, might be solved by adding something to the footer
 - style the tracks section (maybe different font? I find it pretty hard to read currently. Alternatively the text could be shorter)
 
 Cosmetic upgrades

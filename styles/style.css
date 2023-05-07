@@ -186,15 +186,25 @@ td.right-column {
 }
 
 .footer-container {
-    background: white;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media-container {
+  margin-right: 5%;
+  margin-left: 5%;
+  background: white;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style all font awesome icons */
 .fa {
-  padding-top: 17px;
   font-size: 30px;
-  width: 50px;
-  height: 50px;
   text-align: center;
   text-decoration: none;
 }
@@ -202,27 +212,24 @@ td.right-column {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+  text-decoration: none
 }
 
 /* Set a specific color for each brand */
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+  color: rgba(126,211,119,1);
 }
 
 .fa-instagram {
-  background: #55ACEE;
-  color: white;
+  color: rgba(110,216,143,1);
 }
 
 .fa-linkedin {
-  background: #55ACEE;
-  color: white;
+  color: rgba(113,216,176,1);
 }
 
 .fa-envelope {
-  background: #55ACEE;
-  color: white;
+  color: rgba(113,216,213,1);
 }
 
 :target::before {
