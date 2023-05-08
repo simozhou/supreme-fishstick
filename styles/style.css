@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+/* scaling for mobile */
+@media only screen and (max-width: 600px) {
+  :root {
+    --fs-xl: clamp(2rem, 8vw + 1rem, 10rem); /*min size, scaling, max size*/
+    --fs-l: clamp(2rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
+    --fs-info: clamp(1.5rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
+    --fs-section-title: clamp(2rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
+    --fs-faq: clamp(0.8rem, 1vw + 1rem, 2.5rem); /*min size, scaling, max size*/
+    --fs-text: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
+    --fs-speaker: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
+    --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
+    --fs-programme: clamp(1rem, 0.5vw + 1rem, 3rem);
+    --fs-speaker-abstract: clamp(1rem, 1vw + 0.1rem, 2rem);
+  }
+}
+
 :root {
   --ff-body: Work Sans;
   --ff-heading: Rubik, Sans Serif;
