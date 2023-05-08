@@ -12,7 +12,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- make popover go behind navbar
+- make popover disappear when out of viewport
 - fix scaling and styling for programme and FAQ
 - populate speakers (add popovers to all of them)
 - populate programme

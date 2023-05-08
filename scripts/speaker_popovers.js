@@ -39,5 +39,7 @@ $(document).ready(function() {
             $(this).popover('hide');
           }
         });
+      // popover z-index fix under the navbar
+      $('.popover').css('z-index', '100');
       });
     });
