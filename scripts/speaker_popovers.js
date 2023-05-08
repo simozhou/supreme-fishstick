@@ -31,11 +31,13 @@ $(document).ready(function() {
         template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
       });
 
-      // Hide the popover when focusing somewhere else
-      // this is not working properly
-      //$('body').on('click', function (e) {
-      //  if ($(e.target).attr('id') !== 'valsecchi-div' && $(e.target).parents('.popover').length === 0) {
-      //    $('#valsecchi-div').popover('hide');
-      //  }
-      //});
+      // Hide popover when clicking outside or on another popover
+      $('body').on('click', function (e) {
+        $('[data-toggle="popover"]').each(function () {
+          // hide any open popovers when anywhere else in the body is clicked
+          if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+          }
+        });
+      });
     });
