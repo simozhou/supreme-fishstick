@@ -13,6 +13,7 @@
   --fs-speaker: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-programme: clamp(1rem, 0.5vw + 1rem, 3rem);
+  --fs-speaker-abstract: clamp(1rem, 1vw + 0.1rem, 2rem);
 }
 
 body {
@@ -143,6 +144,42 @@ body {
   font-size: var(--fs-speaker);
   font-style: italic;
   margin: 0;
+}
+
+.speaker-popover {
+  /* Add your styles here */
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 45vw;
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-speaker-abstract);
+}
+
+.speaker-popover .arrow::after {
+  border-bottom-color: rgba(113, 216, 176, 1) !important;
+}
+
+.speaker-popover .popover-header {
+    background-color: rgba(113, 216, 176, 1);
+    color: #fff;
+    text-align: center;
+    font-family: var(--ff-body);
+    font-weight: 500;
+    font-size: var(--fs-speaker);
+  }
+
+.speaker-popover .popover-header::before {
+    content: none;
+  }
+
+/* Custom CSS for positioning arrow */
+.speaker-popover .arrow {
+  color: rgba(113, 216, 176, 1);
+  left: 50% !important;
+  margin-left: -5px !important;
 }
 
 .programme-bg {

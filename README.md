@@ -12,7 +12,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- rework popover design for speakers
+- make popover go behind navbar
 - make popovers disappear when the user clicks somewhere else
 - fix scaling and styling for programme and FAQ
 - populate speakers (add popovers to all of them)
@@ -25,5 +25,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 - style the tracks section (maybe different font? I find it pretty hard to read currently. Alternatively the text could be shorter)
 
 Cosmetic upgrades
-- create a hover effect for the speakers to make the page feel more interactive
+- create a hover effect for the speakers to make the page feel more interactive (gradient circle swooping around the border could be cool)
 - would be cool if we could indicate which speaker belongs to which track, e. g. by coloring the horizontal bar or something like that
+- position popovers always at the bottom (seems like its not working on big screens)
+
