@@ -13,7 +13,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODO
 - make popover go behind navbar
-- make popovers disappear when the user clicks somewhere else
 - fix scaling and styling for programme and FAQ
 - populate speakers (add popovers to all of them)
 - populate programme
