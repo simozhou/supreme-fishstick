@@ -12,7 +12,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- adjust sizes for mobile
 - make popover disappear when out of viewport
 - scrollable popover
 - fix scaling and styling for programme and FAQ
