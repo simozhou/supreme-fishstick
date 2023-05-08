@@ -14,14 +14,14 @@
     --fs-programme: clamp(1rem, 0.5vw + 1rem, 3rem);
     --fs-speaker-abstract: clamp(1rem, 1vw + 0.1rem, 2rem);
   }
-}
+} 
 
 :root {
   --ff-body: Work Sans;
   --ff-heading: Rubik, Sans Serif;
 
   --fs-xl: clamp(3rem, 8vw + 1rem, 10rem); /*min size, scaling, max size*/
-  --fs-l: clamp(3rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
+  --fs-l: clamp(2rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
   --fs-faq: clamp(0.8rem, 1vw + 1rem, 2.5rem); /*min size, scaling, max size*/
