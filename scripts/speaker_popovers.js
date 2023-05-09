@@ -31,6 +31,70 @@ $(document).ready(function() {
         template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
       });
 
+      $('#stehbens-div').popover({
+        placement: 'bottom',
+        title: 'Samantha Stehbens',
+        content: 'Cancer cells spread aggressively through tissues by adapting their cell shape to fit the environment in addition to altering their environment so they can squeeze through tight tissue spaces. Cancer cells sense and become more invasive following changes in the biophysical properties their microenvironment including increases in stromal stiffness and interstitial fluid pressures. These changes make cancer cells mechanically compliant and adaptive to fluctuations in their surrounding environment allowing them to alter their shape to fit matrix physical attributes. As such, cells need mechanisms in place to 1) detect these physical limits, 2) deform their cortex whilst producing mechanical force for forward locomotion and 3) orient themselves to move through tissues. We focus on understanding- at the molecular level- how the microtubule cytoskeleton and microtubule associated proteins called +TIPs, regulate how cells move through physically challenging environments. To do this we utilize cutting-edge methodology including microchannel fabrication, novel light sheet microscopy, quantitative imaging methods in combination with patient-derived cell and 3D hydrogel models to recapitulate the 3D microenvironment.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#drescher-div').popover({
+        placement: 'bottom',
+        title: 'Knut Drescher',
+        content: 'My research focuses on understanding the mechanisms that determine the dynamics of bacteria in biofilms and swarms. In particular, we study the mechanisms that underlie the spatiotemporal development of microbial communities, and the properties that the communities acquire during their development.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#laurent-div').popover({
+        placement: 'bottom',
+        title: 'Gilles Laurent',
+        content: 'I will describe recent work on two systems and at different levels of investigation. In the first I will describe the unexpected dynamic complexity of sleep activity in the brain of a reptile. In the second, I will describe experiments on camouflage behavior in cuttlefish, an animal that exploits a unique skin display system controlled by the brain to match the texture statistics of visual scenes. Such studies, in animals that diverged over 320 and 550 MYA respectively from our own lineage, force one to reflect on the nature of common principles of brain operations.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#gartner-div').popover({
+        placement: 'bottom',
+        title: 'Zev Gartner',
+        content: 'The Gartner group is working to understand how cells self-organize into tissues, how the structure of tissues help regulate cell behaviors, and how tissue structure breaks down in diseases like cancer. By understanding these processes they hope to reveal general principles contributing to cancer progression, to speed the development of new drugs, and to develop new strategies for regenerative medicine. To accomplish these goals they build, perturb, and model human tissues in vitro using techniques from the chemical, physical, and biological sciences.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#tung-div').popover({
+        placement: 'bottom',
+        title: 'Jenny Tung',
+        content: 'Jenny and her group are interested in the intersection between social behavior, genetics, and evolution. We study how the social environment influences gene regulation, population genetic structure, and health and survival across the life course. We primarily pursue these questions in nonhuman primates and other social mammals, both wild and captive.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#sepela-div').popover({
+        placement: 'bottom',
+        title: 'Rebecka Sepela',
+        content: 'Animals and microorganisms have coevolved to share similar environmental niches and signal to one another in symbiotic relationships. While interkingdom signaling is appreciated in host-microbiome interactions, whether animals use microbial signaling to explore their external environment is not understood. My research exploits the uniquely adapted octopus chemotactile system to reveal broad principles for how animals sense and interact with the bacteria living all around them.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#dijk-div').popover({
+        placement: 'bottom',
+        title: 'Bram van Dijk',
+        content: 'Microbial evolution is a process governed by many scales. Studying the interplay between genes, mobile elements, cells, populations, and communities of microbes is very challenging. I develop multilevel simulations that capture this interplay, and try do decipher the fundamental principles of the microbial world.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
+      $('#engel-div').popover({
+        placement: 'bottom',
+        title: 'Ben Engel',
+        content: 'We use cryo-electron tomography to visualize molecular complexes inside native cells, providing new insights into how organelles are built.',
+        trigger: 'click',
+        template: '<div class="popover speaker-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+      });
+
       // Hide popover when clicking outside or on another popover
       $('body').on('click', function (e) {
         $('[data-toggle="popover"]').each(function () {
