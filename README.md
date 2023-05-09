@@ -26,9 +26,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 Cosmetic upgrades
 - add icons and colors to the tracks
-- replace speaker placeholders with dots
 - make home icon bigger
-- create a hover effect for the speakers to make the page feel more interactive (gradient circle swooping around the border could be cool)
 - would be cool if we could indicate which speaker belongs to which track, e. g. by coloring the horizontal bar or something like that
 - position popovers always at the bottom (seems like its not working on big screens)
 
