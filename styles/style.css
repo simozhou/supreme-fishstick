@@ -39,7 +39,6 @@
 }
 
 body {
-  background: rgb(126,211,119);
   background: linear-gradient(90deg, rgba(126,211,119,1) 0%, rgba(110,216,143,1) 20%, rgba(113,216,176,1) 40%, rgba(113,216,213,1) 60%, rgba(123,191,225,1) 80%, rgba(134,172,236,1) 100%); 
 	background-size: 300% 300%;
 	animation: gradient 10s ease infinite;
@@ -133,13 +132,58 @@ body {
 .speaker-line {
   width: 50%;
   background-color: darkgray;
+  height: 1px;
   margin: 3%;
-
+  transition: background-color 0.2s ease-in-out, width 0.2s linear;
 }
 
 .speaker-image {
   width: clamp(7rem, 14vw + 1rem, 13rem);
+  z-index: 5;
 }
+
+.highlight-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(7rem + 5px, 14vw + 1rem + 5px, 13rem + 5px); /* Adjust the size as per your requirements */
+  height: clamp(7rem + 5px, 14vw + 1rem + 5px, 13rem + 5px);
+  border-radius: 50%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.circle-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(126,211,119,1) 0%, rgba(123,191,225,1) 50%, rgba(134,172,236,1) 100%); /* Customize the gradient colors */
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, transform 60s linear; /* Add smooth transition */
+  z-index: 2; /* Position the background below the image */
+  transform-origin: center center;
+}
+
+.image-container {
+  position: relative;
+  z-index: 5;
+}
+
+/*Hover effects start*/
+.speaker-component:hover .circle-background {
+  opacity: 1;
+  transform: rotate(5000deg);
+}
+
+.speaker-component:hover .speaker-line {
+  background-color: rgba(126,211,119,1);
+  width: 60%;
+}
+/*Hover effects end*/
+
 
 .img-cover{
   object-fit: cover;
