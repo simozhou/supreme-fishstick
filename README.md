@@ -19,13 +19,15 @@ If you just open the html file as a file in your browser, it will not work, beca
 - populate speakers (add popovers to all of them)
 - populate programme
 - populate faq
-- populate sponsors
+- populate/remove sponsors
 - make the register button redirect to the actual registration website
 - add pronouns to speakers
 - if you are on a small screen and switch between sponsors and FAQ, it currently looks weird, might be solved by adding something to the footer
 - style the tracks section (maybe different font? I find it pretty hard to read currently. Alternatively the text could be shorter)
 
 Cosmetic upgrades
+- add icons and colors to the tracks
+- replace speaker placeholders with dots
 - make home icon bigger
 - create a hover effect for the speakers to make the page feel more interactive (gradient circle swooping around the border could be cool)
 - would be cool if we could indicate which speaker belongs to which track, e. g. by coloring the horizontal bar or something like that
