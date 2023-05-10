@@ -47,6 +47,30 @@ body {
 	height: 100vh;
 }
 
+.content-body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.landing {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (min-width: 1000px) {
+    /* Increase padding when the screen size is larger than 800px */
+    .content-body {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+    .landing {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+
 .invitation-block {
   background: white;
   text-align: center,left;

@@ -18,7 +18,6 @@ If you just open the html file as a file in your browser, it will not work, beca
     - optional: position popovers always at the bottom (seems like its not working on big screens)
 
 - Scaling update
-    - add left and right padding to the entire body on big screens
     - Fix section title on mobile (Programme is too big and every section title is bigger than the main!)
     - check how FAQ scales on mobile, may need to adjust font sizes
     - adjust --fs-track-header for mobile
