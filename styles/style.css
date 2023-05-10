@@ -13,6 +13,7 @@
     --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
     --fs-programme: clamp(1rem, 0.5vw + 1rem, 3rem);
     --fs-speaker-abstract: clamp(1rem, 1vw + 0.1rem, 2rem);
+    --fs-track-header: clamp(2rem, 1vw + 1rem, 4rem); /*min size, scaling, max size*/
   }
 
   .popover-body {
@@ -30,6 +31,7 @@
   --fs-l: clamp(2rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
+  --fs-track-header: clamp(1.5rem, 0.6vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-faq: clamp(0.8rem, 0.8vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-text: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-speaker: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
@@ -129,6 +131,46 @@ body {
   padding-bottom: 2%;
 }
 
+.track-icon {
+  width: clamp(4.5rem, 4vw + 1rem, 6rem);
+}
+
+.tracks-text {
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-text);
+  line-height: 1.2em;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+.tracks-header-text {
+  font-family: var(--ff-body);
+  font-weight: 500;
+  font-size: var(--fs-track-header);
+  line-height: 1.2em;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+
+.tracks-header {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+  margin-top: 1.5vh;
+}
+
+.tracks-header img {
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+.tracks-header-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the contents vertically */
+}
+
+
 .speaker-line {
   width: 50%;
   background-color: darkgray;
@@ -146,8 +188,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: clamp(7rem + 5px, 14vw + 1rem + 5px, 13rem + 5px); /* Adjust the size as per your requirements */
-  height: clamp(7rem + 5px, 14vw + 1rem + 5px, 13rem + 5px);
+  width: clamp(7rem + 6px, 14vw + 1rem + 6px, 13rem + 6px); /* Adjust the size as per your requirements */
+  height: clamp(7rem + 6px, 14vw + 1rem + 6px, 13rem + 6px);
   border-radius: 50%;
   margin-bottom: 0px;
   z-index: 1;
