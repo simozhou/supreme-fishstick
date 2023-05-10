@@ -30,7 +30,7 @@
   --fs-l: clamp(2rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
-  --fs-faq: clamp(0.8rem, 1vw + 1rem, 2.5rem); /*min size, scaling, max size*/
+  --fs-faq: clamp(0.8rem, 0.8vw + 1rem, 2.5rem); /*min size, scaling, max size*/
   --fs-text: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-speaker: clamp(1rem, 0.4vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-navbar: clamp(1.5rem, 0.5vw + 1rem, 3rem); /*min size, scaling, max size*/
@@ -297,6 +297,10 @@ body {
   font-size: var(--fs-text);
   line-height: 1.2em;
   text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pickupper {
