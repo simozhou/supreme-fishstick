@@ -195,7 +195,39 @@ body {
 }
 
 
-.speaker-line {
+.speaker-line-molecular {
+  width: 50%;
+  background-color: darkgray;
+  height: 1px;
+  margin: 3%;
+  transition: background-color 0.2s ease-in-out, width 0.2s linear;
+}
+
+.speaker-line-behaviour {
+  width: 50%;
+  background-color: darkgray;
+  height: 1px;
+  margin: 3%;
+  transition: background-color 0.2s ease-in-out, width 0.2s linear;
+}
+
+.speaker-line-multicellular {
+  width: 50%;
+  background-color: darkgray;
+  height: 1px;
+  margin: 3%;
+  transition: background-color 0.2s ease-in-out, width 0.2s linear;
+}
+
+.speaker-line-eco-evo {
+  width: 50%;
+  background-color: darkgray;
+  height: 1px;
+  margin: 3%;
+  transition: background-color 0.2s ease-in-out, width 0.2s linear;
+}
+
+.speaker-line-integration {
   width: 50%;
   background-color: darkgray;
   height: 1px;
@@ -238,15 +270,49 @@ body {
   z-index: 5;
 }
 
+.speaker-icon {
+  width: clamp(3rem, 3vw + 1rem, 6rem);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center center;
+}
+
 /*Hover effects start*/
 .speaker-component:hover .circle-background {
   opacity: 1;
   transform: rotate(5000deg);
 }
 
-.speaker-component:hover .speaker-line {
-  background-color: rgba(126,211,119,1);
+.speaker-component:hover .speaker-line-molecular {
+  background-color: rgba(63,218,172,255);
   width: 60%;
+}
+
+.speaker-component:hover .speaker-line-behaviour {
+  background-color: rgba(123,173,242,255);
+  width: 60%;
+}
+
+.speaker-component:hover .speaker-line-multicellular {
+  background-color: rgba(54,218,135,255);
+  width: 60%;
+}
+
+.speaker-component:hover .speaker-line-eco-evo {
+  background-color: rgba(63,218,213,255);
+  width: 60%;
+}
+
+.speaker-component:hover .speaker-line-integration {
+  background-color: rgba(100,192,228,255);
+  width: 60%;
+}
+
+.speaker-component:hover .speaker-icon {
+  transform: scale(1.2);
 }
 /*Hover effects end*/
 
