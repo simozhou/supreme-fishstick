@@ -24,10 +24,7 @@ If you just open the html file as a file in your browser, it will not work, beca
     - check if the tracks still scale nicely for mobile
     - check if the navbar still adds too much padding when scrolling back up on mobile
 
-- Styling update 1
-    - add track information to speakers (e. g. by altering the hover color or including the track icon next to the name)
-
-- Styling update 2
+- Styling update
     - style programme
 
 - Function update
