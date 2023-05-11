@@ -22,10 +22,10 @@ If you just open the html file as a file in your browser, it will not work, beca
     - check how FAQ scales on mobile, may need to adjust font sizes
     - adjust --fs-track-header for mobile
     - check if the tracks still scale nicely for mobile
+    - check if the navbar still adds too much padding when scrolling back up on mobile
 
 - Styling update 1
     - add track information to speakers (e. g. by altering the hover color or including the track icon next to the name)
-    - fix navbar bug where it adds a padding to a section that doesn't go away if the user scrolls back up
 
 - Styling update 2
     - style programme
