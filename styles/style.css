@@ -344,40 +344,21 @@ body {
   margin: 0;
 }
 
-.speaker-popover {
-  /* Add your styles here */
-  background-color: #f8f9fa;
-  color: #333;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  max-width: 45vw;
+.modal-header {
+  border-color: rgba(113, 216, 176, 1);
+  background-color: rgba(113, 216, 176, 1); /* Set the desired background color for the header */
+  color: white; /* Set the text color for the header */
+  font-family: var(--ff-body);
+  font-weight: 500;
+  font-size: var(--fs-speaker);
+}
+
+.modal-body {
+  background-color: white; /* Set the desired background color for the header */
+  color: rgb(70,70,70); /* Set the text color for the header */
   font-family: var(--ff-body);
   font-weight: 300;
   font-size: var(--fs-speaker-abstract);
-}
-
-.speaker-popover .arrow::after {
-  border-bottom-color: rgba(113, 216, 176, 1) !important;
-}
-
-.speaker-popover .popover-header {
-    background-color: rgba(113, 216, 176, 1);
-    color: #fff;
-    text-align: center;
-    font-family: var(--ff-body);
-    font-weight: 500;
-    font-size: var(--fs-speaker);
-  }
-
-.speaker-popover .popover-header::before {
-    content: none;
-  }
-
-/* Custom CSS for positioning arrow */
-.speaker-popover .arrow {
-  color: rgba(113, 216, 176, 1);
-  left: 50% !important;
-  margin-left: -5px !important;
 }
 
 /* The !important statements overwrite the bootstrap defaults */
@@ -441,12 +422,6 @@ body {
   margin-bottom: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  overflow: hidden;
-  transition: height 0.3s;
-}
-
-.expanded {
-  height: auto;
 }
 
 .pickupper {
