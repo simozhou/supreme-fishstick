@@ -345,8 +345,8 @@ body {
 }
 
 .modal-header {
-  border-color: rgba(113, 216, 176, 1);
-  background-color: rgba(113, 216, 176, 1); /* Set the desired background color for the header */
+  /*border-color: rgba(113, 216, 176, 1);
+  /*background-color: rgba(113, 216, 176, 1); /* Set the desired background color for the header */
   color: white; /* Set the text color for the header */
   font-family: var(--ff-body);
   font-weight: 500;

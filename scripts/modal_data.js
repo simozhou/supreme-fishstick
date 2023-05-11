@@ -116,6 +116,7 @@ for (let i = 0; i < modalsData.length; i++) {
   modalTitle.id = "modalLabel-" + i;
   modalTitle.textContent = modalData.title;
   modalTitle.style.borderColor = modalData.borderColor;
+  modalTitle.style.borderBottomColor = modalData.borderColor;
 
   modalHeader.appendChild(modalTitle);
 
