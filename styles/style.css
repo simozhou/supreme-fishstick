@@ -197,7 +197,7 @@ body {
 
 .speaker-line-molecular {
   width: 50%;
-  background-color: darkgray;
+  background-color: rgb(70,70,70);
   height: 1px;
   margin: 3%;
   transition: background-color 0.2s ease-in-out, width 0.2s linear;
@@ -205,7 +205,7 @@ body {
 
 .speaker-line-behaviour {
   width: 50%;
-  background-color: darkgray;
+  background-color: rgb(70,70,70);
   height: 1px;
   margin: 3%;
   transition: background-color 0.2s ease-in-out, width 0.2s linear;
@@ -213,7 +213,7 @@ body {
 
 .speaker-line-multicellular {
   width: 50%;
-  background-color: darkgray;
+  background-color: rgb(70,70,70);
   height: 1px;
   margin: 3%;
   transition: background-color 0.2s ease-in-out, width 0.2s linear;
@@ -221,7 +221,7 @@ body {
 
 .speaker-line-eco-evo {
   width: 50%;
-  background-color: darkgray;
+  background-color: rgb(70,70,70);
   height: 1px;
   margin: 3%;
   transition: background-color 0.2s ease-in-out, width 0.2s linear;
@@ -229,7 +229,7 @@ body {
 
 .speaker-line-integration {
   width: 50%;
-  background-color: darkgray;
+  background-color: rgb(70,70,70);
   height: 1px;
   margin: 3%;
   transition: background-color 0.2s ease-in-out, width 0.2s linear;
@@ -380,6 +380,14 @@ body {
   margin-left: -5px !important;
 }
 
+/* The !important statements overwrite the bootstrap defaults */
+.btn-custom {
+  color: white !important;
+  background-color: rgb(70,70,70) !important;
+  border-color: rgb(70,70,70) !important;
+  padding: .23rem .6rem !important;
+}
+
 .programme-bg {
   width: clamp(12rem, 20%, 25rem);
   height: fit-content;
@@ -433,6 +441,12 @@ body {
   margin-bottom: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.expanded {
+  height: auto;
 }
 
 .pickupper {
