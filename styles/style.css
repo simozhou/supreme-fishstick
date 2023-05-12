@@ -170,6 +170,7 @@ body {
 
 .register-button .fa-external-link {
   margin-left: 10px;
+  margin-top: 3px; /* slightly nudging the icon down since it has some padding at the bottom */
 }
 
 .section-title {
@@ -500,25 +501,6 @@ body {
   background-color: rgba(63,218,172,255);
 }
 /* FAQ end*/
-
-
-.faq-question {
-  font-family: var(--ff-body);
-  font-weight: 300;
-  font-size: var(--fs-faq);
-}
-
-.faq-answer {
-  font-family: var(--ff-body);
-  font-weight: 300;
-  font-size: var(--fs-text);
-  line-height: 1.2em;
-  text-align: justify;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
 
 .pickupper {
   font-family: var(--ff-body);

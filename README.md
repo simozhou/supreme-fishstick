@@ -12,10 +12,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- Styling update 1
-    - fix pixels in popup header corners (there seems to be one gray pixel which I find a bit annoying)
-    - center register icon vertically (the font-awesome one has some space at the bottom)
-
 - Scaling update
     - Fix section title on mobile (Programme is too big and every section title is bigger than the main!)
     - check how FAQ scales on mobile, may need to adjust font sizes
@@ -27,6 +23,5 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Function update
     - make the register button redirect to the actual registration website
 
-- Styling update 2
-    - make navbar scroll on click instead of teleport
+- Styling update
     - style programme
