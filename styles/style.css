@@ -28,8 +28,8 @@
   --ff-heading: Rubik, Sans Serif;
 
   --fs-xl: clamp(3rem, 8vw + 1rem, 10rem); /*min size, scaling, max size*/
-  --fs-l: clamp(2rem, 3vw + 1rem, 10rem); /*min size, scaling, max size*/
-  --fs-info: clamp(2rem, 2vw + 1rem, 2.5rem); /*min size, scaling, max size*/
+  --fs-l: clamp(2rem, 2.5vw + 1rem, 10rem); /*min size, scaling, max size*/
+  --fs-info: clamp(1.5rem, 1.5vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
   --fs-track-header: clamp(1.5rem, 0.6vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-faq: clamp(0.8rem, 0.8vw + 1rem, 2.5rem); /*min size, scaling, max size*/
@@ -103,7 +103,7 @@ body {
 }
 
 .header {
-  padding-top:8vh;
+  padding-top:5vh;
   margin: 1.5rem;
 }
 
@@ -113,6 +113,7 @@ body {
   font-weight: 700;
   padding-top: 7vh;
   text-align: left;
+  margin-bottom: 0px !important;
 }
 
 .subtitle {
@@ -120,18 +121,34 @@ body {
   font-family: var(--ff-heading);
   font-weight: 700;
   text-align: left;
-  padding-top: 3vh;
+  padding-top: 0px;
 }
 
 .info {
   font-size: var(--fs-info);
   font-family: var(--ff-body);
   font-weight: 300;
+  padding-top: 0px;
+  text-align: right;
+  margin-bottom: 0px !important;
+}
+
+.info-bold {
+  font-size: var(--fs-info);
+  font-family: var(--ff-body);
+  font-weight: 400;
+  padding-top: 0px;
+  text-align: right;
+  margin-bottom: 0px !important;
+}
+
+.info-container {
   padding-top: 3vh;
-  text-align: left;
 }
 
 .register-button {
+  display: flex;
+  align-items: center;
   border: 2px solid white;
   border-radius: 15px;
   background-color: transparent;
@@ -141,11 +158,16 @@ body {
   margin-top: 4vh;
   font-size: var(--fs-info);
   cursor: pointer;
+  justify-content: center;
 }
 
 .register-button:hover {
   background-color: white;
   color: black;
+}
+
+.register-button .fa-external-link {
+  margin-left: 10px;
 }
 
 .section-title {
@@ -461,7 +483,7 @@ body {
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   text-decoration: none
 }
 

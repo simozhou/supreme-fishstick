@@ -16,6 +16,7 @@ If you just open the html file as a file in your browser, it will not work, beca
     - style programme
     - make answers unroll instead of just appear
     - fix pixels in popup header corners (there seems to be one gray pixel which I find a bit annoying)
+    - center register icon vertically (the font-awesome one has some space at the bottom)
 
 - Scaling update
     - Fix section title on mobile (Programme is too big and every section title is bigger than the main!)
