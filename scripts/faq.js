@@ -10,4 +10,12 @@ questions.forEach(question => {
       answer.style.maxHeight = '0';
     }
   });
+
+  // Update answer height when resizing the window
+  window.addEventListener('resize', () => {
+    const answer = question.nextElementSibling;
+    if (question.classList.contains('open')) {
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
+  });
 });
