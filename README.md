@@ -12,9 +12,8 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- Styling update
-    - style programme
-    - make answers unroll instead of just appear
+- Styling update 1
+    - fix bug where for some screensizes, the FAQ answers get cut off (this is only an issue if you resize after opening a question, because the container height is set once by javascript when you expand and then doesn't update)
     - fix pixels in popup header corners (there seems to be one gray pixel which I find a bit annoying)
     - center register icon vertically (the font-awesome one has some space at the bottom)
 
@@ -28,3 +27,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 - Function update
     - make the register button redirect to the actual registration website
+
+- Styling update 2
+    - make navbar scroll on click instead of teleport
+    - style programme

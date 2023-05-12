@@ -27,7 +27,7 @@
   --ff-body: Work Sans;
   --ff-heading: Rubik, Sans Serif;
 
-  --fs-xl: clamp(3rem, 8vw + 1rem, 10rem); /*min size, scaling, max size*/
+  --fs-xl: clamp(3rem, 7vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-l: clamp(2rem, 2.5vw + 1rem, 10rem); /*min size, scaling, max size*/
   --fs-info: clamp(1.5rem, 1.5vw + 1rem, 3rem); /*min size, scaling, max size*/
   --fs-section-title: clamp(3rem, 2.5vw + 1rem, 5rem); /*min size, scaling, max size*/
@@ -103,7 +103,7 @@ body {
 }
 
 .header {
-  padding-top:5vh;
+  padding-top:120px;
   margin: 1.5rem;
 }
 
@@ -111,7 +111,7 @@ body {
   font-size: var(--fs-xl);
   font-family: var(--ff-heading);
   font-weight: 700;
-  padding-top: 7vh;
+  padding-top: 2vh;
   text-align: left;
   margin-bottom: 0px !important;
 }
@@ -119,7 +119,7 @@ body {
 .subtitle {
   font-size: var(--fs-l);
   font-family: var(--ff-heading);
-  font-weight: 700;
+  font-weight: 500;
   text-align: left;
   padding-top: 0px;
 }
@@ -156,7 +156,9 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 4vh;
+  font-family: var(--ff-heading);
   font-size: var(--fs-info);
+  font-weight: 400;
   cursor: pointer;
   justify-content: center;
 }
@@ -427,6 +429,78 @@ body {
   margin-bottom: 0.5vw;
 }
 
+/* FAQ start*/
+.faq {
+  margin-bottom: 1.5vh;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  transform: translateY(-50%) rotate(45deg);
+  transition: transform 0.3s ease, border-top 0.1s ease-in-out, border-right 0.1s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+}
+
+.question h3 {
+  font-family: var(--ff-body);
+  font-weight: 400;
+  font-size: var(--fs-faq);
+  margin-left: 20px; /* Adjust the spacing between arrow and text as needed */
+  margin-bottom: 5px;
+}
+
+.question.open .arrow {
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.faq-line {
+  width: clamp(1.5rem, 5vw + 1rem, 10rem);
+  background-color: rgb(70,70,70);
+  height: 1px;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 5px; /* Adjust the margin-top value as needed */
+  transition: background-color 0.1s ease-in-out;
+}
+
+.answer {
+  margin-left: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.answer p {
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-text);
+  margin-bottom: 0.5vh !important;
+}
+
+.faq:hover .arrow {
+  border-top: 2px solid rgba(63,218,172,255);
+  border-right: 2px solid rgba(63,218,172,255);
+}
+
+.faq:hover .faq-line {
+  background-color: rgba(63,218,172,255);
+}
+/* FAQ end*/
+
 
 .faq-question {
   font-family: var(--ff-body);
@@ -503,6 +577,20 @@ body {
 .fa-envelope {
   color: rgba(113,216,213,1);
 }
+
+.custom-link {
+  color: rgba(123,173,242,255); /* Set your custom color here */
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: rgba(123,173,242,255); /* Set your custom hover color here */
+}
+
+.custom-link:visited {
+  color: rgba(123,173,242,255); /* Set your custom visited color here */
+}
+
 
 :target::before {
   content: "";
