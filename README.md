@@ -20,8 +20,12 @@ If you just open the html file as a file in your browser, it will not work, beca
     - check if the navbar still adds too much padding when scrolling back up on mobile
     - check if speakers still scale well
 
+- Styling update
+    - align FAQ arrows with the first line of each question
+    - style programme
+    - make line wider on hover at FAQ and programme (only expand to the right, so I guess set-origin or something needs to be changed)
+    - adjust speaker texts for Ruprecht and Engel to make them more consistent with the rest
+
 - Function update
     - make the register button redirect to the actual registration website
-
-- Styling update
-    - style programme
+    - check scaling one last time

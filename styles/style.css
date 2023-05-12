@@ -430,6 +430,54 @@ body {
   margin-bottom: 0.5vw;
 }
 
+/* programme start*/
+.programme-block {
+  margin-bottom: 1.5vh;
+}
+
+.programme-day {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.programme-day h3 {
+  font-family: var(--ff-body);
+  font-weight: 400;
+  font-size: var(--fs-faq);
+  margin-left: 20px; /* Adjust the spacing between arrow and text as needed */
+  margin-bottom: 5px;
+}
+
+.programme-day.open .arrow {
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.programme-content {
+  margin-left: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.programme-content p {
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-text);
+  margin-bottom: 0.5vh !important;
+}
+
+.programme-block:hover .arrow {
+  border-top: 2px solid rgba(63,218,172,255);
+  border-right: 2px solid rgba(63,218,172,255);
+}
+
+.programme-block:hover .faq-line {
+  background-color: rgba(63,218,172,255);
+}
+/* programme end*/
+
 /* FAQ start*/
 .faq {
   margin-bottom: 1.5vh;
