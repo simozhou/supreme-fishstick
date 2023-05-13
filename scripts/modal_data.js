@@ -10,7 +10,7 @@ const modalsData = [
   {
     id: "modal-chen",
     title: "Fei Chen (he/him)",
-    body: "Chen’s laboratory is building tools that bridge single-cell genomics with space and time, to enable discoveries of where cell types are localized within intact tissues, as well as when relevant transcriptional modules are active. To do this, the lab is developing novel experimental and computational technologies at the intersection of microscopy, genomics, and synthetic biology. His group is applying these tools to learn organizational principles governing tissue development and cellular mechanisms of disorganization during injury and disease.",
+    body: "Chen’s laboratory is building tools that bridge single-cell genomics with space and time, to enable discoveries of where cell types are localised within intact tissues, as well as when relevant transcriptional modules are active. To do this, the lab is developing novel experimental and computational technologies at the intersection of microscopy, genomics, and synthetic biology. His group is applying these tools to learn organisational principles governing tissue development and cellular mechanisms of disorganisation during injury and disease.",
     headerColor: "rgba(63,218,172,255)",
     borderColor: "rgba(63,218,172,255)"},
   {
@@ -23,14 +23,14 @@ const modalsData = [
   {
     id: "modal-ruprecht",
     title: "Verena Ruprecht (she/her)",
-    body: "Our lab studies the molecular and biophysical mechanisms that  control cell shape, migration and multicellular organization in the  early embryo. We further study how the tissue microenvironment and stress conditions regulate morphodynamic migration plasticity and dynamic cell functions such as phagocytic activity. With our work we aim to address how developmental robustness and innate immune responses are established in the early embryo and how adaptive cell behaviours impact on disease processes such as cancer cell metastasis.",
+    body: "Our lab studies the molecular and biophysical mechanisms that  control cell shape, migration and multicellular organisation in the  early embryo. We further study how the tissue microenvironment and stress conditions regulate morphodynamic migration plasticity and dynamic cell functions such as phagocytic activity. With our work we aim to address how developmental robustness and innate immune responses are established in the early embryo and how adaptive cell behaviours impact on disease processes such as cancer cell metastasis.",
     headerColor: "rgba(123,173,242,255)",
     borderColor: "rgba(123,173,242,255)"
   },
   {
     id: "modal-stehbens",
     title: "Samantha Stehbens (she/her)",
-    body: "Cancer cells spread aggressively through tissues by adapting their cell shape to fit the environment in addition to altering their environment so they can squeeze through tight tissue spaces. Cancer cells sense and become more invasive following changes in the biophysical properties their microenvironment including increases in stromal stiffness and interstitial fluid pressures. These changes make cancer cells mechanically compliant and adaptive to fluctuations in their surrounding environment allowing them to alter their shape to fit matrix physical attributes. As such, cells need mechanisms in place to 1) detect these physical limits, 2) deform their cortex whilst producing mechanical force for forward locomotion and 3) orient themselves to move through tissues. We focus on understanding- at the molecular level- how the microtubule cytoskeleton and microtubule associated proteins called +TIPs, regulate how cells move through physically challenging environments. To do this we utilize cutting-edge methodology including microchannel fabrication, novel light sheet microscopy, quantitative imaging methods in combination with patient-derived cell and 3D hydrogel models to recapitulate the 3D microenvironment.",
+    body: "Cancer cells sense and become more invasive following changes in the biophysical properties their microenvironment including increases in stromal stiffness and interstitial fluid pressures. To do this, cells need mechanisms to detect these physical limits, deform their cortex whilst producing mechanical force for forward locomotion and  orient themselves to move through tissues. We focus on understanding how the microtubule cytoskeleton and microtubule associated proteins regulate the movement of cells through physically challenging environments.",
     headerColor: "rgba(123,173,242,255)",
     borderColor: "rgba(123,173,242,255)"
   },
@@ -51,7 +51,7 @@ const modalsData = [
   {
     id: "modal-gartner",
     title: "Zev Gartner (he/him)",
-    body: "The Gartner group is working to understand how cells self-organize into tissues, how the structure of tissues help regulate cell behaviors, and how tissue structure breaks down in diseases like cancer. By understanding these processes they hope to reveal general principles contributing to cancer progression, to speed the development of new drugs, and to develop new strategies for regenerative medicine. To accomplish these goals they build, perturb, and model human tissues in vitro using techniques from the chemical, physical, and biological sciences.",
+    body: "The Gartner group is working to understand how cells self-organise into tissues, how the structure of tissues help regulate cell behaviors, and how tissue structure breaks down in diseases like cancer. By understanding these processes they hope to reveal general principles contributing to cancer progression, to speed the development of new drugs, and to develop new strategies for regenerative medicine. To accomplish these goals they build, perturb, and model human tissues in vitro using techniques from the chemical, physical, and biological sciences.",
     headerColor: "rgba(54,218,135,255)",
     borderColor: "rgba(54,218,135,255)"
   },
@@ -79,7 +79,7 @@ const modalsData = [
   {
     id: "modal-engel",
     title: "Ben Engel (he/him)",
-    body: "We use cryo-electron tomography to visualize molecular complexes inside native cells, providing new insights into how organelles are built.",
+    body: "We explore the relationship between organelle form and function by investigating how macromolecules sculpt cellular organelles, and reciprocally, how the shape of each organelle directs the function of its resident macromolecules. Cryo-electron tomography (cryo-ET) provides a window into this new world of structural cell biology.",
     headerColor: "rgba(100,192,228,255)",
     borderColor: "rgba(100,192,228,255)"
   }
