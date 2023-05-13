@@ -13,7 +13,7 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODO
 - Scaling update
-    - make programme scale
+    - test scaling of programme
 
 - Styling update
     - adjust speaker texts for Stehbens and Engel to make them more consistent with the rest
