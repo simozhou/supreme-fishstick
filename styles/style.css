@@ -394,42 +394,6 @@ body {
   padding: .23rem .6rem !important;
 }
 
-.programme-bg {
-  width: clamp(12rem, 20%, 25rem);
-  height: fit-content;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.programme-admin {
-  background-color: rgba(234,190,124,1);
-}
-
-.programme-talk {
-  background-color: rgba(113,216,176,1);
-}
-
-.programme-break {
-  background-color: rgba(148,176,218,1);
-}
-
-.programme-time {
-  font-family: var(--ff-body);
-  font-weight: 400;
-  font-size: var(--fs-programme);
-  color: white;
-  margin: 0px;
-}
-
-.programme-content {
-  font-family: var(--ff-body);
-  font-weight: 400;
-  font-size: var(--fs-programme);
-  color: black;
-  margin-left: 0.5vw;
-  margin-bottom: 0.5vw;
-}
-
 /* programme start*/
 .programme-block {
   margin-bottom: 1.5vh;
@@ -455,7 +419,11 @@ body {
 }
 
 .programme-content {
+  font-family: var(--ff-body);
+  font-weight: 400;
+  font-size: var(--fs-programme);
   margin-left: 20px;
+  margin-right: 20px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
@@ -560,6 +528,31 @@ body {
 .speakers {
   padding: 10vh;
 }
+
+.programme-icon {
+  max-height: 100%;
+  width: auto;
+}
+
+.programme-text {
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-text);
+}
+
+.programme-line-row {
+  display: flex;
+  align-items: center;
+  height: 10px;
+}
+
+.programme-line {
+  margin: 0;
+  background-color: rgb(70,70,70);
+  height: 1px;
+  border-top: 1px;
+}
+
 
 .footer-container {
   background: white;

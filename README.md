@@ -22,7 +22,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 - Styling update
     - align FAQ arrows with the first line of each question
-    - style programme
     - make line wider on hover at FAQ and programme (only expand to the right, so I guess set-origin or something needs to be changed)
     - adjust speaker texts for Ruprecht and Engel to make them more consistent with the rest
 

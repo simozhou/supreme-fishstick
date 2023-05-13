@@ -5,7 +5,7 @@ programme_days.forEach(programme_day => {
     programme_day.classList.toggle('open');
     const programme_content = programme_day.nextElementSibling;
     if (programme_day.classList.contains('open')) {
-      programme_content.style.maxHeight = programme_content.scrollHeight + 'px';
+      programme_content.style.maxHeight = `calc(${programme_content.scrollHeight}px + 20px)`;
     } else {
       programme_content.style.maxHeight = '0';
     }
@@ -15,7 +15,7 @@ programme_days.forEach(programme_day => {
   window.addEventListener('resize', () => {
     const programme_content = programme_day.nextElementSibling;
     if (programme_day.classList.contains('open')) {
-      programme_content.style.maxHeight = programme_content.scrollHeight + 'px';
+      programme_content.style.maxHeight = `calc(${programme_content.scrollHeight}px + 20px)`;
     }
   });
 });
