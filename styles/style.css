@@ -443,6 +443,7 @@ body {
 
 .programme-block:hover .faq-line {
   background-color: rgba(63,218,172,255);
+  width: 20%;
 }
 /* programme end*/
 
@@ -491,7 +492,7 @@ body {
   margin: 0;
   margin-left: 20px;
   margin-top: 5px; /* Adjust the margin-top value as needed */
-  transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out, width 0.1s linear;
 }
 
 .answer {
@@ -515,6 +516,7 @@ body {
 
 .faq:hover .faq-line {
   background-color: rgba(63,218,172,255);
+  width: 20%;
 }
 /* FAQ end*/
 
