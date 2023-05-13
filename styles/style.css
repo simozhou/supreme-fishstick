@@ -181,7 +181,8 @@ body {
 }
 
 .track-icon {
-  width: clamp(4.5rem, 4vw + 1rem, 6rem);
+  width: clamp(2rem, 4vw + 1rem, 6rem);
+  align-self: flex-start;
 }
 
 .tracks-text {

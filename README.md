@@ -13,7 +13,6 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODO
 - Scaling update
-    - adjust icons to be centered with the header on phones and not with the entire track text
     - make programme scale
 
 - Styling update
