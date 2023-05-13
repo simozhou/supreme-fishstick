@@ -565,6 +565,7 @@ body {
 
 .programme-icon {
   height: calc(var(--fs-text) + 10px);
+  padding: 2px !important;
   /*width: 50%;*/
 }
 

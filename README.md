@@ -12,5 +12,4 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- incorporate new icons in programme
 - make the register button redirect to the actual registration website
