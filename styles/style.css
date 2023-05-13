@@ -468,7 +468,7 @@ body {
   transform: translateY(-50%) rotate(45deg);
   transition: transform 0.3s ease, border-top 0.1s ease-in-out, border-right 0.1s ease-in-out;
   position: absolute;
-  top: 50%;
+  top: calc(var(--fs-faq) / 2 + 1px);
   left: 0;
 
 }
