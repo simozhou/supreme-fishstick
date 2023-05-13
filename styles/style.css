@@ -548,6 +548,10 @@ body {
   .programme-text-block {
     margin-bottom: 7px;
   }
+
+  .programme-time {
+    font-weight: 400 !important;
+  }
 }
 
 @media (max-width: 556px) {
@@ -569,6 +573,12 @@ body {
 }
 
 .programme-text {
+  font-family: var(--ff-body);
+  font-weight: 300;
+  font-size: var(--fs-text);
+}
+
+.programme-time {
   font-family: var(--ff-body);
   font-weight: 300;
   font-size: var(--fs-text);
