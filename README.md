@@ -13,15 +13,12 @@ If you just open the html file as a file in your browser, it will not work, beca
 
 ## TODO
 - Scaling update
-    - Fix section title on mobile (Programme is too big and every section title is bigger than the main!)
-    - check how FAQ scales on mobile, may need to adjust font sizes
-    - adjust --fs-track-header for mobile
-    - check if the tracks still scale nicely for mobile
-    - check if the navbar still adds too much padding when scrolling back up on mobile
-    - check if speakers still scale well
+    - adjust icons to be centered with the header on phones and not with the entire track text
+    - make programme scale
 
 - Styling update
     - adjust speaker texts for Stehbens and Engel to make them more consistent with the rest
+    - incorporate new icons in programme
 
 - Function update
     - make the register button redirect to the actual registration website
