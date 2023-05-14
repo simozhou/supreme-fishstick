@@ -173,6 +173,15 @@ body {
   margin-top: 3px; /* slightly nudging the icon down since it has some padding at the bottom */
 }
 
+.register-online {
+  align-items: center;
+  align-self: center;
+  color: rgb(220,220,220);
+  font-family: var(--ff-heading);
+  font-size: var(--fs-text);
+  padding-top: 1vh;
+}
+
 .section-title {
   font-size: var(--fs-section-title);
   font-family: var(--ff-heading);
