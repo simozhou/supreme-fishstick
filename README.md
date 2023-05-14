@@ -12,4 +12,4 @@ If you just open the html file as a file in your browser, it will not work, beca
 - Visit localhost in your browser at: `localhost:8000`
 
 ## TODO
-- make the register button redirect to the actual registration website
+- ready to push!!! :pregnant woman(ye):
